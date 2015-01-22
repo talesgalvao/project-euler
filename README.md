@@ -1,2 +1,2 @@
 # project-euler
-Solving some [a link](https://projecteuler.net/) problems.
+Solving some [projecteuler.net](https://projecteuler.net/) problems.
