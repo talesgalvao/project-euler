@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 // Starts in 2 cause is the first prime number
 $total = 2;
@@ -12,6 +13,8 @@ function isPrime($num) {
     return true;
 }
 
+// Start at 3 cause 2 is computed for default in total
+// Salt 2 to get only odd numbers
 for ($i = 3; $i < $below; $i += 2) {
     if (isPrime($i))
         $total += $i;

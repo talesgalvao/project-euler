@@ -1,4 +1,7 @@
+#!/usr/bin/php
 <?php
+
+// This solution is made accounting for weeks to avoid problems with differences between day/month
 
 // Set timezone to revent Warnings
 date_default_timezone_set('America/Sao_Paulo');
